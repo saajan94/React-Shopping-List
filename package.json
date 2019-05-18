@@ -1,0 +1,30 @@
+{
+  "name": "react-shopping-list",
+  "version": "1.0.0",
+  "description": "A shopping list app using the MERN stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saajan94/React-Shopping-List.git"
+  },
+  "author": "Saajan Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saajan94/React-Shopping-List/issues"
+  },
+  "homepage": "https://github.com/saajan94/React-Shopping-List#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
